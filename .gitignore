@@ -1,0 +1,5 @@
+/processed_audio
+/temp_audio_files
+/__pycache__
+/uploads
+*.zip
