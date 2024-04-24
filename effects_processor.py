@@ -89,6 +89,7 @@ class EffectsProcessor:
         self.convert_audio_files()
         self.apply_effects_and_save()
         self.cleanup()
+        print('Processing complete!')
 
 if __name__ == '__main__':
     zip_path = 'test_set.zip'
