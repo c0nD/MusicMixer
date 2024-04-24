@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "musicmixer"
+version = "1.0.0"
+description = "Machine learning dataset expansion tool."
+authors = ["c0nD <colintiller21@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydub = "^0.25.1"
+numpy = "^1.26.4"
+Flask = "^3.0.3"
+pedalboard = "^0.9.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
