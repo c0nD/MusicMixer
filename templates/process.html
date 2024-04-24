@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Processing Results</title>
+</head>
+<body>
+    <h1>Processing Results</h1>
+    <a href="{{ url_for('download_file', filename='processed_files.zip') }}">Download All as Zip</a>
+    <ul>
+        {% for file in files %}
+            <li>
+                {{ file }} - <a href="{{ url_for('download_file', filename=file) }}">Download</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('index') }}">Upload more files</a>
+</body>
+</html>
