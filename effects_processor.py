@@ -1,5 +1,3 @@
-# effects_processor.py
-
 import os
 import zipfile
 from pydub import AudioSegment
