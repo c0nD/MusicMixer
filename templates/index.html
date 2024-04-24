@@ -1,24 +1,25 @@
-<!-- templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Upload Audio Files</title>
+    <title>MusicMixer - Enhance Your Dataset</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Upload Audio Files</h1>
-    {% with messages = get_flashed_messages(with_categories=true) %}
-        {% if messages %}
-            <ul class="flashes">
-            {% for category, message in messages %}
-                <li class="{{ category }}">{{ message }}</li>
-            {% endfor %}
-            </ul>
-        {% endif %}
-    {% endwith %}
-    <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="file" multiple required>
-        <input type="submit" value="Upload">
-    </form>
+    <header>
+        <div> MusicMixer </div>
+    </header>
+
+    <div class="container">
+        <h1>Enhance your music dataset!</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" multiple required>
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+
+    <footer>
+        &copy; <a href="https://github.com/c0nD/MusicMixer">Colin Tiller</a>
+    </footer>
 </body>
 </html>
