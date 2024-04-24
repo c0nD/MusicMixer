@@ -1,5 +1,6 @@
 /processed_audio
 /temp_audio_files
+/test_path
 /__pycache__
 /uploads
 *.zip
