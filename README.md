@@ -1,6 +1,6 @@
-﻿# MusicMixer for Song2Tab
+﻿# MusicMixer
 
-MusicMixer is a tool designed to augment music datasets for the machine learning project [song2tab](https://github.com/c0nD/song2tab). It provides a simple web interface to apply a variety of audio effects to songs, creating an enriched dataset that can be used to improve the performance of the song2tab or any audio-based/music-based deep learning model.
+MusicMixer is a tool I designed to augment music datasets -- specifically, I was working on [song2tab](https://github.com/c0nD/song2tab). It provides a simple web interface to apply a variety of audio effects to songs, creating an enriched dataset that can be used to improve the performance of the song2tab or any audio-based/music-based deep learning model.
 
 ## Features
 - **Audio File Conversion**: Convert audio files into different formats for compatibility with various machine learning tools and libraries.
